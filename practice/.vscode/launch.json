@@ -1,0 +1,168 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "q1",
+            "request": "launch",
+            "mainClass": "exp_3.q1",
+            "projectName": "Proj1_aa687e82"
+        },
+        {
+            "type": "java",
+            "name": "AddTwoNumbers",
+            "request": "launch",
+            "mainClass": "AddTwoNumbers",
+            "projectName": "Proj1_aa687e82"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Proj1_aa687e82"
+        },
+        {
+            "type": "java",
+            "name": "Hello",
+            "request": "launch",
+            "mainClass": "Hello",
+            "projectName": "Proj1_aa687e82"
+        },
+        {
+            "type": "java",
+            "name": "calculator_2",
+            "request": "launch",
+            "mainClass": "calculator_2",
+            "projectName": "Proj1_aa687e82"
+        },
+        {
+            "type": "java",
+            "name": "classsObjects",
+            "request": "launch",
+            "mainClass": "classsObjects",
+            "projectName": "Proj1_aa687e82"
+        },
+        {
+            "type": "java",
+            "name": "datatypes",
+            "request": "launch",
+            "mainClass": "datatypes",
+            "projectName": "Proj1_aa687e82"
+        },
+        {
+            "type": "java",
+            "name": "day_of_week_2",
+            "request": "launch",
+            "mainClass": "day_of_week_2",
+            "projectName": "Proj1_aa687e82"
+        },
+        {
+            "type": "java",
+            "name": "debug",
+            "request": "launch",
+            "mainClass": "debug",
+            "projectName": "Proj1_aa687e82"
+        },
+        {
+            "type": "java",
+            "name": "functions",
+            "request": "launch",
+            "mainClass": "functions",
+            "projectName": "Proj1_aa687e82"
+        },
+        {
+            "type": "java",
+            "name": "greatest_number_2",
+            "request": "launch",
+            "mainClass": "greatest_number_2",
+            "projectName": "Proj1_aa687e82"
+        },
+        {
+            "type": "java",
+            "name": "input",
+            "request": "launch",
+            "mainClass": "input",
+            "projectName": "Proj1_aa687e82"
+        },
+        {
+            "type": "java",
+            "name": "patterns",
+            "request": "launch",
+            "mainClass": "patterns",
+            "projectName": "Proj1_aa687e82"
+        },
+        {
+            "type": "java",
+            "name": "practiceSet",
+            "request": "launch",
+            "mainClass": "practiceSet",
+            "projectName": "Proj1_aa687e82"
+        },
+        {
+            "type": "java",
+            "name": "practiceSet_3",
+            "request": "launch",
+            "mainClass": "practiceSet_3",
+            "projectName": "Proj1_aa687e82"
+        },
+        {
+            "type": "java",
+            "name": "practiceSet_4",
+            "request": "launch",
+            "mainClass": "practiceSet_4",
+            "projectName": "Proj1_aa687e82"
+        },
+        {
+            "type": "java",
+            "name": "practiceSet_5",
+            "request": "launch",
+            "mainClass": "practiceSet_5",
+            "projectName": "Proj1_aa687e82"
+        },
+        {
+            "type": "java",
+            "name": "practiceSet_6",
+            "request": "launch",
+            "mainClass": "practiceSet_6",
+            "projectName": "Proj1_aa687e82"
+        },
+        {
+            "type": "java",
+            "name": "q4_2",
+            "request": "launch",
+            "mainClass": "q4_2",
+            "projectName": "Proj1_aa687e82"
+        },
+        {
+            "type": "java",
+            "name": "simple_interest_2",
+            "request": "launch",
+            "mainClass": "simple_interest_2",
+            "projectName": "Proj1_aa687e82"
+        },
+        {
+            "type": "java",
+            "name": "student_grade_2",
+            "request": "launch",
+            "mainClass": "student_grade_2",
+            "projectName": "Proj1_aa687e82"
+        },
+        {
+            "type": "java",
+            "name": "triangle_area_2",
+            "request": "launch",
+            "mainClass": "triangle_area_2",
+            "projectName": "Proj1_aa687e82"
+        }
+    ]
+}

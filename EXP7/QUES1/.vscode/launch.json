@@ -1,0 +1,31 @@
+//NOTE: if you find watch-window/debug-console/hovering of mouse on 
+//*     var do not show local values. One of the reason maybe java-workspace
+//*     is not clean. So do the following 
+//[1]: Open cmd pallete : ctrl+shift+p (x64) / cmd+shift+p (mac)
+//[2]: type:: Java:clean Java Language Server Workspace and click/enter on it 
+//[3]: Accept the "reload and delete" entry on pop up window  .... 
+
+{ 
+  //"version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      //:: Name of the class which contains entry-point (main method)
+      //:: NOTE: We havn't specify it is inside bin dir .... [Q] How
+      //:: it get this information .... (may be due to "preLaunchTask" entry )  
+      "mainClass": "ShapeDemo",
+      //"vmArgs": ["3 + 4"],
+
+      //:: provides cmdline argument at debug time
+      "args": ["3","+","4"],
+      
+      //:: "preLaunchTask" key's value must match with "label" key-value @ 
+      //:: task.json to exchange information from task (compile) 
+      //:: operation internally if required  
+      
+      "preLaunchTask": "Compile_this_Java_code", 
+    }
+  ]
+}

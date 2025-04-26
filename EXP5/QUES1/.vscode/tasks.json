@@ -1,0 +1,28 @@
+//Note: I deliberately chooses this different name of the  output directory (binary)  
+//*     to show you 2 things
+//*     [1] You are free to choose any output dir name
+//*     [2] For java compilation it automatically creates /bin folder and inside   
+//*         it bytecode is generated. This is part of achieving automated mechanism  
+//*         for compilation and debugging for the newbie in vscode (who relies on clicking and all)
+//*         to build/run/debug the code.   
+
+{ 
+	//"version": "2.0.0",
+	"tasks": [
+			{
+					"label": "Compile_this_Java_code", //:: unique Name for present task 
+					"type": "shell", //:: use shell specific features like while cards etc...
+					"command": "javac",
+					"args": [
+							"src/App1.java",
+							 "-d", 
+							 "./binary" //:: I delibrately chooses this different name to show how vscode achieves automation to run-build the code in vsocde env 
+					],
+					"group": {   //:: given task belongs to which group like Build or Test ...
+							"kind": "build",
+							"isDefault": true
+					},
+					//"problemMatcher": ["$javac"]
+			}
+	]
+}
